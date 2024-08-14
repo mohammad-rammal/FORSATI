@@ -1,4 +1,4 @@
-// Add any additional JavaScript functionality here
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('Page loaded and ready.');
-});
+function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+}
