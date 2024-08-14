@@ -74,6 +74,7 @@ nav ul li a {
 .box:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: green;
 }
 
 footer {
@@ -84,6 +85,35 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.boxS {
+    display: inline-block;
+    overflow: hidden;
+    animation: scaleFade 3s infinite;
+}
+
+@keyframes scaleFade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        color: red;
+        background: rgb(98, 98, 234);
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+        color: black;
+        background: white;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        color: red;
+        background:  rgb(98, 98, 234);
+    }
 }
 
 
