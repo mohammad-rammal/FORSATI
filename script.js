@@ -39,3 +39,32 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+// Get the PDF modal
+var pdfModal = document.getElementById("pdf-modal");
+
+// Get the <span> element that closes the PDF modal
+var spanPdf = document.getElementsByClassName("close-pdf")[0];
+
+// Get the iframe inside the PDF modal
+var pdfFrame = document.getElementById("pdf-frame");
+
+// Event listener for the Summary Report link to open the PDF in a modal
+linkE3.onclick = function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    pdfFrame.src = "https://res.cloudinary.com/dftxzx2zc/image/upload/v1723839583/Images/bpt1vswehfbbheea1p0r.pdf";
+    pdfModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the PDF modal
+spanPdf.onclick = function() {
+    pdfModal.style.display = "none";
+    pdfFrame.src = ""; // Clear the PDF source when closing
+}
+
+// When the user clicks anywhere outside of the PDF modal, close it
+window.onclick = function(event) {
+    if (event.target == pdfModal) {
+        pdfModal.style.display = "none";
+        pdfFrame.src = ""; // Clear the PDF source when closing
+    }
+}
