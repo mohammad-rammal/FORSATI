@@ -26,7 +26,7 @@ function openModal(contentSrc, type) {
 
 linkE1.onclick = function(event) {
     event.preventDefault(); 
-    window.location.href = "https://res-console.cloudinary.com/dftxzx2zc/media_explorer_thumbnails/82cfa24b27ceaade062b88575b3e8ab1/download";
+    window.location.href = "https://res.cloudinary.com/dftxzx2zc/raw/upload/v1723847003/Extra/Excellence_at_Work.pptx";
 };
 
 linkE2.onclick = function(event) {
@@ -36,7 +36,7 @@ linkE2.onclick = function(event) {
 
 linkE3.onclick = function(event) {
     event.preventDefault(); 
-    window.location.href = "https://res-console.cloudinary.com/dftxzx2zc/media_explorer_thumbnails/7a0838cca550f345f6ab0879a8dc03ee/download";
+    window.location.href = "https://res.cloudinary.com/dftxzx2zc/raw/upload/v1723847279/Extra/summary.docx";
 };
 
 linkE4.onclick = function(event) {
