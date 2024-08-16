@@ -26,7 +26,7 @@ function openModal(contentSrc, type) {
 
 linkE1.onclick = function(event) {
     event.preventDefault(); 
-    window.location.href = "https://res.cloudinary.com/dftxzx2zc/raw/upload/v1723847003/Extra/Excellence_at_Work.pptx";
+    window.location.href = "https://res.cloudinary.com/dftxzx2zc/raw/upload/v1723847798/Extra/How_to_excel_at_work.pptx";
 };
 
 linkE2.onclick = function(event) {
