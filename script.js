@@ -39,6 +39,7 @@ linkE3.onclick = function(event) {
     window.location.href = "https://res.cloudinary.com/dftxzx2zc/raw/upload/v1723847279/Extra/summary.docx";
 };
 
+
 linkE4.onclick = function(event) {
     event.preventDefault(); 
     openModal("https://res.cloudinary.com/dftxzx2zc/image/upload/v1723845728/Extra/lnbf81nbmfeixs26qg49.png", "image");
